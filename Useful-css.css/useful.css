@@ -1,0 +1,44 @@
+.user-effect {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;    
+}
+.bridge-elements {
+    content: "";
+    display: block;
+    position: absolute;
+    top: unset; bottom: unset; right: unset; left: unset;
+    width: unset; height: unset;
+}
+.triangle-connect {
+    content: "";
+    display: block;
+    position: absolute;
+    border-width: 0px 0px; border-style: solid; border-color: transparent transparent transparent transparent;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.this::-webkit-scrollbar {
+    display: none;
+}
+.img-in-flexbox {
+    object-fit: contain;
+    margin: auto;
+}
+.long-text-1-row {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.long-text-2-row {
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: unset;
+}
+.cursor-default {
+    cursor: default;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
